@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+   <title>Online blood bank</title> 
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> --> 
+  <style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); */
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+      background-color: rgb(219, 186, 186)
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:white;
+    }
+
+
+    
+    .header .logo {
+      background: url("logo5.jpg") no-repeat;
+      width: 100px;
+      height: 100px;
+      display: block;
+      visibility: visible;
+
+
+       
+     }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      /* background-color: #9b7c7c; */
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+
+    .nav-items a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.nav-items input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px; 
+}
+
+
+    .wrapper{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width:250px;
+      height: 10%;
+      background: yellow;
+      z-index: 100;
+    }
+
+    
+
+
+
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("R1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+   
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="logo5.jpg" alt="logo">
+    
+
+
+    <nav class="nav-items">
+      
+      <a href="index.html">Home</a>
+      <a href="donor_details.html">Donors Registration</a>
+      <a href="donars.html">Donars</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      
+      <input type="text" placeholder="Search..">
+    </nav>
+  
+    
+
+  </header>
+
+
+            
+            
+            
+            
+
+    
+  <main>
+    <div class="intro">
+      <h1>online blood bank</h1>
+      <!-- <marquee> -->
+      <p>save a life by giving your blood.</p>
+    <!-- </marquee> -->
+    </div>
+    
+    <div class="about-me">
+    <div class="about-me-text">
+        <h2>About blood bank</h2>
+        <p>The Blood Bank Management System is a web based application that is related to administrative and inventory 
+          management in a blood bank which maintains, organizes, retrieves, and analyses data. We developed an application to make the 
+          procedure of requesting blood and increase the availability. When a specific blood group is required urgently, you can utilize the 
+          app to contact only those who have that blood group. This system is made up of various modules that keep track of blood and blood 
+          requests, hospitals. Our web application will attract a huge number of blood donors. Cloud-based systems can be useful in 
+          emergency blood supply since they allow for central and fast access to donor data and location from nearly any place and device. 
+          Because practically everyone has a cell phone, it allows for real time location tracking and communication. As a result, the 'Online 
+          Blood Bank' could be a lifesaver for blood donors.
+          </p>
+      </div>
+      <img src="img1.jpg" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; online blood bank</div>
+    </div>
+  </footer>
+</body>
+
+</html>
